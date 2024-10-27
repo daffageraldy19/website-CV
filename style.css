@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.left-section {
+    width: 35%;
+    background-color: #f9a8a8;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.right-section {
+    width: 65%;
+    padding: 30px 40px;
+    background-color: #fff;
+}
+
+.profile-picture img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.profile-title {
+    font-size: 18px;
+    color: #f9a8a8;
+    margin-bottom: 20px;
+}
+
+.profile-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-info, .skills, .interests {
+    margin-bottom: 30px;
+}
+
+.contact-info h2, .skills h2, .interests h2 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-info a:hover {
+    color: #333;
+    transition: 0.3s;
+}
+
+.contact-info p, .skills ul, .interests ul {
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.skills h3 {
+    font-size: 16px;
+    color: #ffdfdf;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.skills ul, .interests ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills ul li, .interests ul li {
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.experience h2 {
+    font-size: 18px;
+    color: #f9a8a8;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f9a8a8;
+    padding-bottom: 5px;
+}
+
+.experience p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.interests ul li {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.interests ul li::before {
+    content: "•";
+    color: #ffdfdf;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.right-section h2 {
+    color: #f9a8a8;
+}
+
+ul li:hover {
+    background-color: #ffdfdf;
+    color: #333;
+    transition: 0.3s;
+}
